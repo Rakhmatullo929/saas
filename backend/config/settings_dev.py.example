@@ -1,0 +1,15 @@
+DEBUG = True
+
+ALLOWED_HOSTS = ['*']
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'saas',
+        'USER': 'rakhmatulloazizov',
+        'PASSWORD': '3305',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+
